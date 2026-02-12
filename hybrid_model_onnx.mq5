@@ -1,19 +1,2 @@
-// Complete working code that compiles correctly in MetaEditor with CUDA and scaler fixes
-
-// Include necessary headers
-#include <SomeHeader.mqh>
-// Include CUDA configuration
-#include <CudaConfig.mqh>
-
-// Define your classes, functions, and any necessary variables
-
-// Function to initialize the model
-void InitializeModel() {
-    // Initialize CUDA and other settings
-}
-
-// Main function
-void OnStart() {
-    InitializeModel();
-    // Call other necessary methods for model execution
-}
+scaler_min = [-49.50314201927093, -47.03578528827037, -51.10300800692481, -49.50314201927093, -1.3465984122097983, -0.1997447268777992, -1.0659793814432899]
+scaler_scale = [41.89359028068695, 39.76143141153081, 43.280675178532704, 41.89359028068695, 0.02717184008527788, 704.9653907578305, 962.1993127147944]
